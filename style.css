@@ -1,0 +1,116 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.carousel-inner img 
+{
+  width: 100%;
+  height: 100%;
+}
+
+.share-button {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.icon
+{
+  border: 1px;
+  border: orangered;
+  border-radius: 1px;
+}
+.bg-black{
+  background-color: #000;
+}
+.footer-text{
+  font-size: 13px;
+  color: grey;
+}
+
+.body-title{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.card-rupee{
+  font-size: 16px;
+  color: orangered;
+}
+
+.card-title{
+  font-size: 16px;
+  font-weight: bold ;
+}
+
+.card-desc{
+  color: grey;
+  font-size: 14px;
+}
+
+
+.bg-orange{
+  background-color: orangered;
+} 
+.border-radius-0{
+  border-radius: 0px !important;
+  border-color: white !important;
+}
+
+
+.iconBox{
+  border:1px solid orangered;
+  padding:10px 13px;
+  border-radius: 50%;
+  width:45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.iconText > p{
+  font-size: 12px;
+  margin-bottom: 0px !important;
+  color:white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: normal;
+}
+.iconText > p:first-child{
+  font-weight: bold;
+}
+
+.before-footer-text-title{
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.before-footer-text-desc{
+  font-size: 10px;
+  
+}
+
+.footer-text-title{
+  font-size: 16px;
+  color: white;
+}
+
+.link{
+  color: orangered;
+  font-size: 10px;
+}
+
+.newsletter{
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+ 
+}
+
+.social{
+  font-size: 12px;
+}

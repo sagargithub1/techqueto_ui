@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Techqueto</title>
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid bg-dark">
+            <div class="container p-2">
+                <div class="row">
+                    <div class="col-12 col-sm-1">
+                        <img src="https://via.placeholder.com/50/" />
+                    </div>
+                    <div class="col-12 col-sm-6 mt-1">
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <div class="input-group w-100 ">
+                                    <div class="input-group-btn search-panel w-100">
+                                        <div class="row no-gutters">
+                                            <div class="col-2">
+                                                <button type="button"
+                                                    class="btn bg-white dropdown-toggle w-100 border-radius-0"
+                                                    data-toggle="dropdown">
+                                                    <span id="search_concept">All</span> <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li><a href="#contains">Example 1</a></li>
+                                                    <li><a href="#its_equal">Example 2</a></li>
+                                                    <li><a href="#greather_than">Example 3</a></li>
+                                                    <li><a href="#less_than">Example 4</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="#all">All</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="w-100">
+                                                    <input type=" text" class="form-control border-radius-0 w-100"
+                                                        name="x" placeholder="Search">
+                                                </div>
+                                            </div>
+                                            <div class="col-1">
+                                                <span class="input-group-btn ">
+                                                    <button class="btn bg-orange border-radius-0" type="button"><span
+                                                            class="fa fa-search text-white"></span></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-5 ">
+                        <div class=" d-flex flex-row mt-1">
+                            <a href="#">
+                                <div class="icon-wrapper d-flex justify-content-center align-items-center">
+                                    <div class="iconBox">
+                                        <i class='fas fa-user-alt' style="color: orangered;"></i>
+                                    </div>
+                                    <div class="iconText">
+                                        <p>Hello, Sign In</p>
+                                        <p class="text-light">Your Account</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                            <a href="#" class="ml-3">
+                                <div class="icon-wrapper d-flex justify-content-center align-items-center">
+                                    <div class="iconBox">
+                                        <i class='fas fa-shopping-cart' style="color: orangered;"></i>
+                                    </div>
+                                    <div class="iconText">
+                                        <p>My Cart</p>
+                                        <p class="text-light">$ 0.00</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                            <a href="#" class="ml-3">
+                                <div class="icon-wrapper d-flex justify-content-center align-items-center">
+                                    <div class="iconBox">
+                                        <i class='fas fa-exchange-alt' style="color: orangered;"></i>
+                                    </div>
+                                    <div class="iconText">
+                                        <p>Compare</p>
+                                        <p class="text-light">$ 0.00</p>
+                                    </div>
+                                </div>
+
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <style>
+                    /* carousel internal css*/
+                    .carousel-inner img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                </style>
+                <div id="car" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/front.png" width="1100" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/front.png" width="1100" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/front.png" width="1100" height="500">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#car" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#car" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Body Contents Starts -->
+
+
+        <div class="container">
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Deals of the day</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View
+                        All</a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <img src="assets/images/main2.png" class="img-fluid">
+                </div>
+            </div>
+
+
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Best Selling</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <img src="assets/images/main3.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">New Arrivals</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <img src="assets/images/main4.png" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Best Camera Phone</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <img src="assets/images/main6.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Fashion Accessories</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">New Mobile Launch</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <img src="assets/images/main3.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Best Recommendation</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-6">
+                    <h5 class="body-title">Recently View Products</h5>
+                </div>
+                <div class="col-6">
+                    <a href="" class="d-flex align-items-end justify-content-end" style="color: orangered;">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <img class="card-img-bottom" src="assets/images/pics.png" alt="Card image">
+                        <div class="card-body ">
+                            <h4 class="card-rupee">Rs.99/-</h4>
+                            <h6 class="card-title ">Green Kurtis For Women
+                            </h6>
+                            <span class="card-desc">Best selling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-12 col-sm-3">
+                <h6 class="before-footer-text-title">FREE SHIPPING ON ORDER OVER $100</h6>
+                <p class="before-footer-text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem
+                    Ipsum has been
+                    the
+                    industry's
+                </p>
+                <a href="" class="link">Read More</a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <h6 class="before-footer-text-title">10% OF THE BILL</h6>
+                <P class="before-footer-text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem Ipsum has been
+                    the
+                    industry's
+                </P>
+                <a href="" class="link">Read More</a>
+
+            </div>
+            <div class="col-12 col-sm-3">
+                <h6 class="before-footer-text-title">SECURITY PAYMENT</h6>
+                <P class="before-footer-text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem Ipsum has been
+                    the
+                    industry's
+                </P>
+                <a href="" class="link">Read More</a>
+
+            </div>
+            <div class="col-12 col-sm-3">
+                <h6 class="before-footer-text-title">LIVE SUPPORT</h6>
+                <P class="before-footer-text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem
+                    Ipsum has been
+                    the
+                    industry's
+                </P>
+                <a href="" class="link">Read More</a>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="container-fluid  bg-black p-3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-sm-2">
+                    <p class="newsletter"> NEWSLETTER</p>
+                </div>
+                <div class="col-12 col-sm-10">
+                    <form class="form-inline" action="#">
+                        <input class="form-control border-radius-0" type="text" placeholder="Enter your email here">
+                        <button class="btn bg-orange border-radius-0" type="submit"><i
+                                class="fa fa-paper-plane text-white"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  bg-dark p-3">
+        <div class="container">
+            <div class="row  my-2 text-light ">
+                <div class="col-12 col-sm-6 ">
+                    <h5 class="mb-3 footer-text-title">What we are about?</h5>
+                    <P class="footer-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has
+                        been
+                        the
+                        industry'sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has
+                        been
+                        the
+                        industry'sindustry'sLorem Ipsum is simply dummy text of the printing and
+                    <p class="footer-text">Follow us on :
+                        <a href=""><i class="fa fa-facebook ml-2" style="font-size:15px "></i></a>
+                        <a href=""> <i class="fa fa-instagram ml-2" style="font-size:15px"></i></a>
+                        <a href=""> <i class="fa fa-twitter ml-2" style="font-size:15px"></i></a>
+                        <a href=""><i class="fa fa-google-plus ml-2" style="font-size:15px"></i></a>
+                        <a href=""> <i class="fa fa-pinterest ml-2" style="font-size:15px"></i></a>
+                        <a href=""> <i class="fa fa-linkedin ml-2" style="font-size:15px"></i></a>
+                        <a href=""> <i class="fa fa-youtube ml-2" style="font-size:15px"></i></a>
+
+                    </P>
+                </div>
+                <div class="₹col-12 col-sm-2">
+                    <h5 class="mb-3 footer-text-title">More info</h5>
+                    <p class="footer-text">
+                        <a href="" class="footer-text">Terms and condition </a> <br>
+                        <a href="" class="footer-text">Return policy </a> <br>
+                        <a href="" class="footer-text"> Shipping info </a> <br>
+                        <a href="" class="footer-text"> Careers </a> <br>
+                        <a href="" class="footer-text"> Wholesale</a>
+                    </p>
+
+                </div>
+                <div class="₹col-12 col-sm-2 ">
+                    <h5 class="mb-3 footer-text-title">About Us</h5>
+                    <p class="footer-text">
+                        <a href="" class="footer-text"> Our Showroom </a> <br>
+                        <a href="" class="footer-text"> Read The Journal </a> <br>
+                        <a href="" class="footer-text"> Press Information</a> <br>
+                        <a href="" class="footer-text">Events </a> <br>
+                        <a href="" class="footer-text"> Careers</a>
+                    </p>
+                </div>
+                <div class="₹col-12 col-sm-2">
+                    <h5 class="mb-3 footer-text-title">Help</h5>
+                    <p class="footer-text ">
+                        <a href="" class="footer-text"> Store Info </a> <br>
+                        <a href="" class="footer-text"> Delivery </a> <br>
+                        <a href="" class="footer-text"> Returns </a> <br>
+                        <a href="" class="footer-text"> Care </a> <br>
+                        <a href="" class="footer-text"> Fabric Guide </a>
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+            <p class="footer-text-title text-center">2022 all rights reserved</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('.search-panel .dropdown-menu').find('a').click(function (e) {
+                e.preventDefault();
+                var param = $(this).attr("href").replace("#", "");
+                var concept = $(this).text();
+                $('.search-panel span#search_concept').text(concept);
+                $('.input-group #search_param').val(param);
+            });
+        });
+    </script>
+</body>
+
+</html>
